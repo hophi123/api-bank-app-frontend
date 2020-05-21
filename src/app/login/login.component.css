@@ -1,31 +1,35 @@
 .login-page {
-  width: 360px;
+  width: 330px;
   padding: 8% 0 0;
   margin: auto;
+}
+.img {
+  width: 80%;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 .form {
   position: relative;
   z-index: 1;
-  background: #ffffff;
-  margin: 0 auto 100px;
-  padding: 45px;
+  background: #f2f3f7;
+  margin: 0 auto;
+  padding: 25px 20px 45px;
   text-align: center;
+  width: 330px;
+  border-radius: 6px;
 }
 .input {
   font-family: "Roboto", sans-serif;
   outline: 0;
-  background: #f2f2f2;
-  width: 100%;
-  border: 0;
+  background: #ffffff;
+  width: 75%;
+  border: 1px solid;
   margin: 0 0 15px;
   padding: 15px;
   box-sizing: border-box;
   font-size: 14px;
-}
-.google {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border-radius: 6px;
 }
 .button {
   border-radius: 4px;
@@ -33,7 +37,7 @@
   text-transform: uppercase;
   outline: 0;
   background: #4caf50;
-  width: 100%;
+  width: 75%;
   border: 0;
   padding: 15px;
   color: #ffffff;
@@ -47,7 +51,7 @@
   text-transform: uppercase;
   outline: 0;
   background: rgb(175, 76, 92);
-  width: 100%;
+  width: 75%;
   height: 40px;
   margin-top: 1rem;
   border: 0;
@@ -55,14 +59,6 @@
   color: #ffffff;
   font-size: 14px;
   transition: all 0.3 ease;
-}
-button#facebook {
-  width: 100%;
-  margin-top: 2rem;
-  height: 40px;
-  border-color: #2d5073;
-  background-color: #3b5998;
-  background-image: url(http://icons.iconarchive.com/icons/danleech/simple/512/facebook-icon.png);
 }
 div.social-wrap button {
   padding-right: 45px;
@@ -88,5 +84,5 @@ div.social-wrap button {
 .wrapper {
   width: 100%;
   height: 100vh;
-  background: #63738a;
+  background: #7f8c8d;
 }

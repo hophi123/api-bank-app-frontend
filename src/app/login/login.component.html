@@ -1,17 +1,14 @@
 <div class="wrapper">
   <div class="login-page">
     <div class="form">
+      <img class="img" src="../../assets/image/logovnext.png">
       <form class="login-form">
-        <input class="input" type="text" placeholder="Phone Number" id="phonenumber" />
+        <input class="input" type="text" placeholder="Email" id="email" />
         <input class="input" type="password" placeholder="Password" id="password" />
         <input class="button" type="button" (click)="login()" value="LOGIN" />
-        <div class="social-wrap a">
-          <button id="facebook">Sign in with Facebook</button>
-        </div>
-        <input class="register" type="button" onclick="register()" value="Go to register" />
+        <input class="register" type="button" (click)="register()" value="Go to register" />
       </form>
     </div>
   </div>
 
 </div>
-
